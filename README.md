@@ -40,8 +40,13 @@ Konfigurasi Database: Edit file .env untuk mengatur pengaturan database sesuai d
 Jika proyek menggunakan migrasi database, jalankan perintah berikut untuk mengatur database sesuai dengan struktur yang diperlukan oleh aplikasi:
     php artisan migrate
 
-6. Jalankan Server Laravel
+6. Jalankan Storage link
+
+        php artisan storage:link
+
+7. Jalankan Server Laravel
 Terakhir, Anda dapat menjalankan server pengembangan lokal Laravel dengan perintah:
-    php artisan serve
+
+       php artisan serve
    
 Secara default, ini akan menjalankan server di http://localhost:8000.
